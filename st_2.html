@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<title>responsive navigation menu</title>
+<style>
+.nav-bar{
+	display:flex;
+	grid-template-rows:400px 1fr;
+   	background-color:black;
+}
+.navigation{
+	color:burlywood;
+	font-size:25px;
+}
+.parts{
+    display:flex;
+    grid-template-rows:150px 150px 150px 150px;
+    
+}
+.description{
+    margin-right:400px;
+}
+.menu{
+    color:pink;
+    font-size:20px;
+    padding:10px;
+    cursor:pointer;
+}
+.menu:hover{
+    color:white;
+}
+</style>
+</head>
+<body>
+<div class="nav-bar">
+<div class="description">
+<p class="navigation">NAV-BAR</p>
+</div>
+<div class="parts">
+<p class="menu">home</p>
+<p class="menu">items</p>
+<p class="menu">login</p>
+<p class="menu">Cart</p>
+</div>
+</div>
+</body>
+</html>
